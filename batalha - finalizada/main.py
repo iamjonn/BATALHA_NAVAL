@@ -3,8 +3,6 @@ from modulos import matriz as mt
 
 # grupo
 # Thiago Alexandre
-# Lucas Andre
-# Luan Rawlison
 # Jonata Nascimento
 
 
