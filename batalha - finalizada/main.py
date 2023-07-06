@@ -7,10 +7,14 @@ from modulos import matriz as mt
 # Luan Rawlison
 # Jonata Nascimento
 
-tropas = int(input('Digite de 1 a 6 quantos navios cada jogador terá: '))
 
 opcao = input(
     'Deseja iniciar um novo jogo (N) ou carregar um jogo salvo (C)? ')
+
+tropas = int(input('Digite de 1 a 6 quantos navios cada jogador terá: '))
+
+while tropas > 6:
+    tropas = int(input('Digite um numero valido de 1 a 6: '))
 
 if opcao.lower() == 'n':
     player1 = mt.criar_tabuleiro(tropas)
